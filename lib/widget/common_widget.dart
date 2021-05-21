@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:nutrition_app/detail_page.dart';
+import 'file:///D:/harshil/Flutter/apps/nutrition_app/lib/user/detail_page.dart';
 
 class CommonWidget {
   static Widget recommendedList(
-      {String image, String mindetail, String calories, String quotes,BuildContext context}) {
+      {String image,
+      String minDetail,
+      String calories,
+      String quotes,
+      BuildContext context}) {
     return Padding(
       padding: const EdgeInsets.only(right: 15),
       child: Container(
@@ -49,7 +53,7 @@ class CommonWidget {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text(
-                          '$mindetail',
+                          '$minDetail',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -100,7 +104,7 @@ class CommonWidget {
   }
 
   static Widget otherList({
-    String bgimage,
+    String bgImage,
     String image,
     String name,
     String dishes,
@@ -115,7 +119,7 @@ class CommonWidget {
           color: Colors.black,
           borderRadius: BorderRadius.circular(17),
           image:
-              DecorationImage(image: AssetImage('$bgimage'), fit: BoxFit.cover),
+              DecorationImage(image: AssetImage('$bgImage'), fit: BoxFit.cover),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

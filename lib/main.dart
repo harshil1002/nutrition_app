@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nutrition_app/bottom_bar.dart';
-import 'package:nutrition_app/global_data.dart';
+import 'file:///D:/harshil/Flutter/apps/nutrition_app/lib/user/bottom_bar.dart';
+import 'file:///D:/harshil/Flutter/apps/nutrition_app/lib/data/global_data.dart';
 
 void main() {
   runApp(NutritionApp());
