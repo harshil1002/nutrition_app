@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'file:///D:/harshil/Flutter/apps/nutrition_app/lib/user/home_page.dart';
+import 'package:nutrition_app/user/home_page.dart';
 
 class DetailPage extends StatefulWidget {
   @override

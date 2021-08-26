@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///D:/harshil/Flutter/apps/nutrition_app/lib/user/detail_page.dart';
+import 'package:nutrition_app/user/detail_page.dart';
 
 class CommonWidget {
   static Widget recommendedList(
